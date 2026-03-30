@@ -1,29 +1,87 @@
-# Multifunction-calculating-program-
-This is the code for a command line based multifunction calculating program.
-# Multifunctional Calculator:-
-Overview of the project--
-The project is a multifunctional calculator that allows the user to choose from and perform a total of 18 functions. The user interacts with the program by providing input that then is used by the program to generate the output.
+# Multifunctional Calculator
+# Overview:-
+The Multifunctional Calculator is a Python-based application that combines algebraic operations, scientific computations, and data visualization into a single system.
+This project is developed as part of the course Fundamentals of Artificial Intelligence and Machine Learning, demonstrating how basic AI concepts like decision-making and user interaction can be applied in real-world programs.
 
-# Features--
-The calculator offers a total of 18 functions that are further divided into three groups. Algebraic,Scientific and Data Visualisation. Algebraic--> It contains the basic algebraic functions that a calcualtor posseses, namely addition,subtraction,multiplication,division and a random number generator which generates a random real number within a given range.
+# Features:-
+Algebraic Operations:--
+Addition
+Subtraction
+Multiplication
+Division
+Random Number Generation
 
-Scientific--> This section contains more advanced scientific functions namely Exponential, Logarithim, Factorial, Fibonacchi, sine(), cosine(), tangent(), cosecant(), secant(), cotangent(). All functions work within the scientific laws and the fibonacchi functions displays the first n terms of the fibonacchi series where n is provided by the user.
+Scientific Functions:--
+Factorial
+Fibonacci Series
+Exponential (e^x)
+Logarithm
 
-Data Visualisation--> This section contains tools that help in visualising the available data namely Numerical Line Graph- which plots a line graph for avilable set of abscissa and ordinate values. Bar chart- Which plots the available numberical values for certain categories. Pie chart- Which plots a pie chart for the avaialable numerical values on certain categories.
+Trigonometric Functions:--
+Sine
+Cosine
+Tangent
+Cosecant
+Secant
+Cotangent
 
-Every function works by taking the required input from the user and performing the necessary calculations. Since there are many ways to give numerical inputs the correct way to provide the input is stated at the required steps.
+# Data Visualization:-
+Line Graph
+Bar Graph
+Pie Chart
 
-# Technologies/tools used
-The program has been created by using Python language ,in creating this program the code explained in the class and on the vityarthi portal have been used. Along with the programmer written code, the program uses modules present in python namely numpy,scipy,math,random,matplotlib to perform certain desired functions. The program in terms of structure uses many concepts such as loops, nested functions/loops,conditionals,boolean statements etc in order to enhance the overall usability and funcionality.
+# AI Concepts Used:-
+This project applies basic AI principles, suitable for a first-year course:
 
-# Steps to install & run the project
-The program can be run in two ways.
+Decision Making:--
+Uses conditional logic to select operations based on user input
+Automation:--
+Executes tasks automatically after input
+User Interaction: Accepts and processes user commands
+Rule-Based System:--
+Works like a simple AI agent following predefined rules
 
-First by opening the Project-1 Scientific Calculator.py in a python idle and then running the code.
+# Technologies Used:-
+Python
+Libraries:
+math
+numpy
+random
+matplotlib
 
-Second by opening the Project-1 Scientific Calculator.ipynb file and running the code cell in jupyter coding platform.
+# How to Run:-
+pip install numpy matplotlib
+Open the project file in Jupyter Notebook
+Run all cells
 
-In both the cases after performing one function the code block will end and to execute another function, the code block will have to be run again.
+# How to Use:-
+Enter your name when prompted
+Choose the operation (e.g., addition, sine, bar graph)
+Provide required inputs
+View the result or graph
 
-# Instructions for testing
-The program can be tested by running the code multiple times and providing different inputs in order to access different functions. Further each funciton can be tested with different types of data inputs in order to validate the intended funcionality.
+# Example Inputs:-
+Operation	Input Example
+Addition	addition → 5, 10
+Sine	sine → 30
+Graph	bar graph → dataset
+
+# Limitations:-
+Case-sensitive inputs
+No graphical user interface (CLI only)
+Limited error handling
+No advanced AI/ML models
+
+# Future Improvements:-
+Add GUI (Tkinter or Web App)
+Implement Natural Language Processing (NLP)
+Add voice input support
+Improve error handling
+Integrate basic machine learning features
+
+# Author:-
+Developed as part of B.Tech (1st Year)
+Course: Fundamentals of AI & ML
+
+# Conclusion:-
+This project demonstrates how a simple calculator can be enhanced using programming and basic AI concepts to create a smart, interactive, and multifunctional system.
