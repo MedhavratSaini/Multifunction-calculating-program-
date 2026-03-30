@@ -80,8 +80,10 @@ Improve error handling
 Integrate basic machine learning features
 
 # Author:-
-Developed as part of B.Tech (1st Year)
+Made By: Medhavrat Saini 
+Reg. No.: 25BCE11083
 Course: Fundamentals of AI & ML
+Developed as part of B.Tech, 1st Year,Winter Sem 2025-2026
 
 # Conclusion:-
 This project demonstrates how a simple calculator can be enhanced using programming and basic AI concepts to create a smart, interactive, and multifunctional system.
